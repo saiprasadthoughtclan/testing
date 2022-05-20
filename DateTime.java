@@ -27,7 +27,7 @@ public class DateTime{
         // Get min from each, and subtract.
         long diff = d2.getTime() - d1.getTime();
         long diffMinutes = diff / (60 * 1000); 
-        System.out.println("Time in minutes1: " + diffMinutes + " minutes."); 
+        System.out.println("Time in minutes: " + diffMinutes + " minutes."); 
 
 
     }
